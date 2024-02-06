@@ -16,17 +16,18 @@ Environnements et configuration technique
 Pour la réalisation de ce projet, nous disposons d'un environnement virtuel installé et configuré par Diginamic (Christophe G.). Cet environnement est composé de :
  - une machine virtuelle Linux sur laquelle sont installés Docker et le cluster Hadoop
  - une machine virtuelle Windows (Hidora) pour le développement et Power BI
-Les technologies et logiciels utilisés sont :
- - langage Python (version 3.5.4) et les librairies (ou modules) associées : Pandas, Matplotlib, Happybase, ...
- - Visual Studio Code (en local)
- - Hadoop pour le calcul distribué des map/reduce 
- - HBase pour le stockage de la base de données NoSQL (orientée colonnes)
- - PuTTY pour la communication entre les environnements Windows et Linux
- - Filezilla pour l'import de fichiers dans Hadoop
- - Power BI pour la création des tableaux de bord interactifs
- - ODBC : driver pour la connexion de Power BI à la base de données HBase
- - Git et Github pour le rendu final et la gestion des versions
- - Microsoft Teams et outils Office 365
+<br>
+Les technologies et logiciels utilisés sont :<br>
+ - langage Python (version 3.5.4) et les librairies (ou modules) associées : Pandas, Matplotlib, Happybase, ...<br>
+ - Visual Studio Code (en local)<br>
+ - Hadoop pour le calcul distribué des map/reduce <br>
+ - HBase pour le stockage de la base de données NoSQL (orientée colonnes)<br>
+ - PuTTY pour la communication entre les environnements Windows et Linux<br>
+ - Filezilla pour l'import de fichiers dans Hadoop<br>
+ - Power BI pour la création des tableaux de bord interactifs<br>
+ - ODBC : driver pour la connexion de Power BI à la base de données HBase<br>
+ - Git et Github pour le rendu final et la gestion des versions<br>
+ - Microsoft Teams et outils Office 365<br>
 
 
 Lot 1 : Le client désire les statistiques suivantes
