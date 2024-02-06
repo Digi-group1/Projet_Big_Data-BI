@@ -74,7 +74,7 @@ with open("dataw_fro03.csv", "r", encoding='utf-8') as csvfile :
 			except:
 				continue
 		else:
-			continue
+			datecde = ""
 
 		if lineSplit[8]!="NULL":
 			timbrecli = lineSplit[8]
