@@ -66,7 +66,7 @@ with open("dataw_fro03.csv", "r", encoding='utf-8') as csvfile :
 		else:
 			codcde = '0'
 		
-		# pour la date de la commande : vérification du format de la date :
+		# pour la date de la commande : vérification du format de la date
 		if lineSplit[7]!="NULL" :
 			try:
 				pd.to_datetime(lineSplit[7])
