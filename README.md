@@ -2,7 +2,7 @@ PROJET n°2 : HADOOP BIG DATA & Power BI
 ==========
 Présentation et objectifs du projet 
 -----------------------------------------
-- Utilisation de Hadoop pour effectuer un map/reduce sur une base de données afin de filtrer des données pour analyse.
+- Utilisation de Hadoop pour effectuer un map/reduce sur une base de données afin de filtrer les données pour analyse.
 Les map/reduce sont écrits en Python.
 - Utilsation de Happybase pour la création d'une base de données Hbase.
 - Importation de cette base de données dans PowerBI pour production de tableaux de bord intéractifs.
@@ -13,19 +13,20 @@ Ces données concernent la gestion des commandes de cadeaux sur 20 ans sur la Fr
 
 Environnements et configuration technique
 ------------------------------------------
-Pour la réalisation de ce projet, nous avons un environnement virtuel configuré et mis à disposition par Diginamic (Christophe G.). Cet environnement est composé de :
- - une machine virtuelle Linux pour faire tourner Docker et Hadoop
+Pour la réalisation de ce projet, nous disposons d'un environnement virtuel installé et configuré par Diginamic (Christophe G.). Cet environnement est composé de :
+ - une machine virtuelle Linux sur laquelle sont installés Docker et le cluster Hadoop
  - une machine virtuelle Windows (Hidora) pour le développement et Power BI
 Les technologies et logiciels utilisés sont :
- - langage Python avec VS Code et les librairies associées : Pandas, Matplotlib, sys, operator, Happybase, ...
+ - langage Python (version 3.5.4) et les librairies (ou modules) associées : Pandas, Matplotlib, Happybase, ...
+ - Visual Studio Code (en local)
  - Hadoop pour le calcul distribué des map/reduce 
- - HBase pour le stockage de la base de données NoSQL orientée colonnes
- - PuTTY
+ - HBase pour le stockage de la base de données NoSQL (orientée colonnes)
+ - PuTTY pour la communication entre les environnements Windows et Linux
  - Filezilla pour l'import de fichiers dans Hadoop
- - Power BI avec connexion ODBC
+ - Power BI pour la création des tableaux de bord interactifs
+ - ODBC : driver pour la connexion de Power BI à la base de données HBase
  - Git et Github pour le rendu final et la gestion des versions
- - Microsoft Teams
- - ...?
+ - Microsoft Teams et outils Office 365
 
 
 Lot 1 : Le client désire les statistiques suivantes
@@ -51,7 +52,7 @@ Lot 2 : Le client désire les statistiques suivantes
 <td>2. A partir du point 1 : Ressortir de façon aléatoire 5% des 100 meilleures commandes avec la ville, la somme des quantités des articles sans «timbrecli» (c'est à dire timbrecli non renseigné ou à 0) avec la moyenne des quantités de chaque commande.</td>
 <br>
 <td>3. Exporter le résultat dans un fichier Excel et créer un graphique (PIE) par Ville en PDF</td><br>
-<td> Fig1: Représentation graphique des quantités commandées par ville (exemple)
+<td> Fig1: Représentation graphique des quantités commandées par ville (exemple)<br>
 <img src="GraphQtesVilles.png"     alt="dat-viz données "/></td>
 </tr>
 
