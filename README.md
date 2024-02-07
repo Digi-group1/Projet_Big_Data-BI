@@ -52,9 +52,7 @@ Lot 2 : Le client désire les statistiques suivantes
 <br>
 <td>2. A partir du point 1 : Ressortir de façon aléatoire 5% des 100 meilleures commandes avec la ville, la somme des quantités des articles sans «timbrecli» (c'est à dire timbrecli non renseigné ou à 0) avec la moyenne des quantités de chaque commande.</td>
 <br>
-<td>3. Exporter le résultat dans un fichier Excel et créer un graphique (PIE) par Ville en PDF</td><br>
-<td> Fig1: Représentation graphique des quantités commandées par ville (exemple)<br>
-<img src="GraphQtesVilles.png"     alt="dat-viz données "/></td>
+<td>3. Exporter le résultat dans un fichier Excel et créer un graphique circulaire (PIE) par Ville en PDF</td><br>
 </tr>
 
 
